@@ -1,3 +1,28 @@
 body {
-    background: url(assets/images/funky-lines.png);
+    background-image: url(../images/funky-lines.png);
+    color: pink;
+    width: 960px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+#navBar {
+    background: white;
+}
+
+#pageCard {
+    background: white;
+}
+
+#fullName {
+    background: #4aaaa5;
+    color: white;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+#para {
+    float:left;
 }
