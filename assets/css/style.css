@@ -1,8 +1,6 @@
 body {
     background-image: url(../images/funky-lines.png);
     width: 960px;
-    margin-right: 150px;
-    margin-left: 150px;
 }
 
 #fullName {
@@ -10,52 +8,70 @@ body {
     color: white;
     width: 310px;
     text-align: center;
-    padding: 15px 20px;
+    padding: 14.5px 3px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 10px;
     float: left;
+    margin-right: 150px;
+    margin-left: 158px;
 }
 
 nav {
-    background: white;
     float: right;
     text-align: center;
-    padding: 30px 40px 30px 40px;
+    padding: 30px 45px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
+    color: whitesmoke;
     letter-spacing: 1px;
-}
-
-a:visited {
-    text-decoration: none;
-    color: #777777;
-}
-
-a:link {
-    text-decoration: none;
-    color: #777777;
+    margin-right: 98px;
+    margin-left: 150px;
 }
 
 #top {
     background: white;
-    /* position: fixed;
+    position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
-    height: 79px; */
+    height: 78px;
+    border: solid;
+    border-width: 0 0 1px 0;
+    border-color: #cccccc;
 }
 
-h2 {
+a:visited {
+    text-decoration: none;
+    color: #848488;
+}
+
+a:link {
+    text-decoration: none;
+    color: #848488;
+}
+
+#title {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
 }
 
 #pageCard {
     background: white;
     padding: 15px 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-right: 150px;
+    margin-left: 150px;
+    width: 939px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+img{
+    float: left;
 }
 
 #para {
-    float:right;
+    color: #848488;
 }
 
