@@ -94,7 +94,7 @@ img{
 footer {
     color: white;
     text-align: center;
-    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 40px 0 0 0;
     font-size: 12px;
 }
@@ -112,4 +112,47 @@ input[type=submit] {
     padding: 6px 18px;
     cursor: pointer;
     border: none;
+}
+
+#cap1 {
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
+    padding: 5px 0 5px 0;
+    margin: 0;
+    position: relative;
+    top: 95px;
+}
+
+#cap2 {
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
+    padding: 5px 0 5px 0;
+    margin: 0;
+    position: relative;
+    top: 95px;
+    left: 170px;
+}
+
+#row1 {
+    float:left;
+}
+
+#row2 {
+    float:left;
+}
+
+#row4{
+    float: left;
+    position: relative;
+    top: 95px;
 }
